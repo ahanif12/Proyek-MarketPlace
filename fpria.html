@@ -9,19 +9,19 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
   </head>
   <body>
-    <div class="container py-3 sticky-top">
+    <div  class="container py-3 sticky-top">
       <!-- container search-bar -->
       <div class="row">
         <!-- row search-bar -->
         <div class="col-12">
-          <nav class="navbar navbar-expand-lg navbar-light bg-info">
-            <div class="collapse navbar-collapse px-auto mx-5" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <nav class="navbar navbar-expand-lg navbar-light bg-info m-sm-auto">
+            <div id="container-nav" class="collapse-sm navbar-collapse px-auto mx-5" id="navbarSupportedContent">
+              <ul id="home-bars" class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item dropdown">
                   <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="fa fa-bars text-danger fs-4"></i>
                   </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <ul id="dropdown-item" class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="fpria.html">Fashion Pria</a></li>
                     <li><a class="dropdown-item" href="fwanita.html">Fashion Wanita</a></li>
                     <li><a class="dropdown-item" href="fmuslim.html">Fashion Muslim</a></li>
@@ -36,19 +36,21 @@
                     <li><a class="dropdown-item" href="laptop.html">Laptop</a></li>
                   </ul>
                 </li>
-                <li class="nav-item">
+                <li id="home" class="nav-item">
                   <a class="nav-link active" aria-current="page" href="index.html">
-                    <i class="fa fa-home text-danger fs-4"></i>
+                    <i  class="fa fa-home text-danger fs-4"></i>
                   </a>
                 </li>
               </ul>
-              <div class="navbar-brand m-auto">
+              <div id="logo-name" class="navbar-brand m-auto">
                 <img src="img/logo/logo.webp" alt="" width="70" height="60">
                 <span class="navbar-brand h1 text-danger">TIM 4 SHOP</span>
               </div>
-              <form class="d-flex px-0">
+              <form id="form" class="d-flex px-0">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-danger fw-bold" type="submit">Search</button>
+                <button class="btn btn-danger fw-bold" type="submit">
+                  <i class="fa fa-search"></i>
+                </button>
               </form>
             </div>
         </nav>
@@ -66,7 +68,7 @@
         </div>
       </div>
     </div>
-    <div class="container py-0" style="margin-top: -10px;">
+    <div class="container py-0">
       <div class="row">
         <div class="col-2 offset-2">
             <div class="card">
@@ -126,11 +128,11 @@
             </div>
           </div>
         </div>
-        <div class="container py-0" style="margin-top: -55px;">
+        <div id="distro-pria" class="container py-0">
           <div class="row">
             <div class="col-2 offset-2">
-              <div class="card" style="height: 61vh;">
-                <img src="img/Produk/produkPria/kaos distro pria.jpg" class="card-img-top" style="height: 34vh;">
+              <div class="card" id="card-distro-pria">
+                <img src="img/Produk/produkPria/kaos distro pria.jpg" class="card-img-top">
                 <a href="#" class="baju card-title">
                   <h5 class="text-center py-2">Kaos distro pria </h5>
                 </a>
@@ -141,8 +143,8 @@
                 </div>
             </div>
             <div class="col-2">
-              <div class="card" style="height:61vh">
-                <img src="img/Produk/produkPria/kaos pria cotton 30s.jpg" class="card-img-top" style="height: 34vh;">
+              <div class="card" id="card-distro-pria">
+                <img src="img/Produk/produkPria/kaos pria cotton 30s.jpg" class="card-img-top">
                 <a href="#" class="baju card-title">
                   <h5 class="text-center py-1">Kaos Pria Cotton 30s</h5>
                 </a>
@@ -166,7 +168,7 @@
         </div>
       </div>
     </div>
-    <div class="container py-0" style="margin-top: -100px;">
+    <div id="container-rekomendasi" class="container py-0">
       <div class="row">
         <div class="col-2 offset-2">
           <div class="card">
@@ -181,8 +183,8 @@
             </div>
         </div>
         <div class="col-2">
-          <div class="card">
-            <img src="img/Produk/produkPria/BAJU KEMEJA KERJA KANTOR COWOK PRIA MOTIF BATIK BUNGA FLORAL.jpeg" class="card-img-top" style="height: 34vh;">
+          <div class="card" id="card-baju-pria">
+            <img src="img/Produk/produkPria/BAJU KEMEJA KERJA KANTOR COWOK PRIA MOTIF BATIK BUNGA FLORAL.jpeg" class="card-img-top">
               <a href="#" class="baju card-title">
                 <h5 class="text-center py-2">Baju Kemeja Kerja pria motif batik</h5>
                 </a>
@@ -193,8 +195,8 @@
             </div>
         </div>
         <div class="col-2 ">
-          <div class="card">
-            <img src="img/Produk/produkPria/Baju Kemeja Lengan Pendek Casual Pria Motif Bunga Keren Slimfit.jpeg" class="card-img-top" style="height: 34vh;">
+          <div class="card" id="card-baju-pria">
+            <img src="img/Produk/produkPria/Baju Kemeja Lengan Pendek Casual Pria Motif Bunga Keren Slimfit.jpeg" class="card-img-top">
               <a href="#" class="baju card-title">
                 <h5 class="text-center py-0">Baju Kemeja Lengan Pendek Casual</h5>
                 </a>
@@ -206,7 +208,7 @@
           </a>
         </div>
         <div class="col-2 ">
-          <div class="card">
+          <div class="card" id="card-baju-pria">
             <img src="img/Produk/produkPria/baju kemeja pria casual polos.jpeg" class="card-img-top" style="height: 34vh;">
             <a href="#" class="baju card-title">
                 <h5 class="text-center py-3">Baju Kemeja Pria casual polos</h5>
@@ -220,8 +222,8 @@
       </div>
       <div class="row gy-5 px-0 my-4">
         <div class="col-2 offset-2">
-          <div class="card">
-            <img src="img/Produk/produkPria/baju kemeja pria kerja kantoran.jpg" class="card-img-top" style="height: 34vh;">
+          <div class="card" id="card-baju-pria">
+            <img src="img/Produk/produkPria/baju kemeja pria kerja kantoran.jpg" class="card-img-top">
               <a href="#" class="baju card-title">
                 <h5 class="text-center py-4">Baju Kemeja Pria kerja kantoran</h5>
               </a>
@@ -232,8 +234,8 @@
             </div>
         </div>
         <div class="col-2">
-          <div class="card">
-            <img src="img/Produk/produkPria/baju koko lengan muslim pria pendek.jpeg" class="card-img-top" style="height: 34vh;">
+          <div class="card" id="card-baju-pria">
+            <img src="img/Produk/produkPria/baju koko lengan muslim pria pendek.jpeg" class="card-img-top">
             <a href="#" class="baju card-title">
               <h5 class="text-center py-4">Baju Koko muslim pria pendek</h5>
             </a>
@@ -244,8 +246,8 @@
             </div>
         </div>
         <div class="col-2">
-          <div class="card">
-            <img src="img/Produk/produkPria/baju muslim pria model terbaru.jpeg" class="card-img-top" style="height: 34vh;">
+          <div class="card" id="card-baju-pria">
+            <img src="img/Produk/produkPria/baju muslim pria model terbaru.jpeg" class="card-img-top">
             <a href="#" class="baju card-title">
               <h5 class="text-center py-4">Baju Muslim pria model terbaru</h5>
             </a>
@@ -256,8 +258,8 @@
             </div>
         </div>
         <div class="col-2 ">
-          <div class="card">
-            <img src="img/Produk/produkPria/baju pesta kemeja pria.jpg" class="card-img-top" style="height: 34vh;">
+          <div class="card" id="card-baju-pria">
+            <img src="img/Produk/produkPria/baju pesta kemeja pria.jpg" class="card-img-top">
             <a href="#" class="baju card-title">
               <h5 class="text-center py-2">Baju Pesta Kemeja Pria Slimfit</h5>
             </a>
@@ -271,8 +273,8 @@
       </div>
       <div class="row gy-5 px-0 my-4">
         <div class="col-2 offset-2">
-          <div class="card">
-            <img src="img/Produk/produkPria/baju seragam kerja pria xp-1 hitam.jpg" class="card-img-top" style="height: 34vh;">
+          <div class="card" id="card-baju-pria">
+            <img src="img/Produk/produkPria/baju seragam kerja pria xp-1 hitam.jpg" class="card-img-top">
             <a href="#" class="baju card-title">
               <h5 class="text-center py-2">Baju Seragam kerja pria xp-1 hitam</h5>
             </a>
@@ -284,8 +286,8 @@
           </a>
         </div>
         <div class="col-2">
-          <div class="card">
-            <img src="img/Produk/produkPria/baju sholat pria merah maroon.jpeg" class="card-img-top" style="height: 34vh;">
+          <div class="card" id="card-baju-pria">
+            <img src="img/Produk/produkPria/baju sholat pria merah maroon.jpeg" class="card-img-top">
             <a href="#" class="baju card-title">
               <h5 class="text-center py-4">Baju Sholat pria Merah maroon</h5>
             </a>
@@ -297,8 +299,8 @@
           </a>
         </div>
         <div class="col-2">
-          <div class="card" style="height:61vh">
-            <img src="img/Produk/produkPria/jas pria modern.jpg" class="card-img-top" style="height: 34vh;">
+          <div class="card" id="card-baju-pria-modern">
+            <img src="img/Produk/produkPria/jas pria modern.jpg" class="card-img-top">
             <a href="#" class="baju card-title">
               <h5 class="text-center py-4">Jas Pria Modern</h5>
             </a>
@@ -310,8 +312,8 @@
           </a>
         </div>
         <div class="col-2 ">
-          <div class="card" style="height:61vh">
-            <img src="img/Produk/produkPria/jas pria premium.jpg" class="card-img-top" style="height: 34vh;">
+          <div class="card" id="card-baju-pria-modern">
+            <img src="img/Produk/produkPria/jas pria premium.jpg" class="card-img-top">
             <a href="#" class="baju card-title">
               <h5 class="text-center py-4">Jas Pria premium</h5>
             </a>
@@ -325,8 +327,8 @@
       </div>
       <div class="row gy-5 px-0 my-4">
         <div class="col-2 offset-2">
-          <div class="card" style="height:61vh">
-            <img src="img/Produk/produkPria/Jubah Hitam Cordova Pakaian Muslim Gamis Sholat Pria Al-Isra.jpeg" class="card-img-top" style="height: 34vh;">
+          <div class="card" id="card-baju-pria-modern">
+            <img src="img/Produk/produkPria/Jubah Hitam Cordova Pakaian Muslim Gamis Sholat Pria Al-Isra.jpeg" class="card-img-top">
             <a href="#" class="baju card-title">
               <h5 class="text-center py-4">Jubah Hitam Cordova Pakaian Muslim Gamis Sholat</h5>
             </a>
@@ -338,8 +340,8 @@
           </a>
         </div>
         <div class="col-2">
-          <div class="card" style="height: 61vh;">
-            <img src="img/Produk/produkPria/kaos distro pria.jpg" class="card-img-top" style="height: 34vh;">
+          <div class="card" id="card-baju-pria-modern">
+            <img src="img/Produk/produkPria/kaos distro pria.jpg" class="card-img-top">
             <a href="#" class="baju card-title">
               <h5 class="text-center py-4">Kaos distro pria </h5>
             </a>
@@ -351,8 +353,8 @@
           </a>
         </div>
         <div class="col-2">
-          <div class="card" style="height:61vh">
-            <img src="img/Produk/produkPria/kaos pria cotton 30s.jpg" class="card-img-top" style="height: 34vh;">
+          <div class="card" id="card-baju-pria-modern">
+            <img src="img/Produk/produkPria/kaos pria cotton 30s.jpg" class="card-img-top">
             <a href="#" class="baju card-title">
               <h5 class="text-center py-4">Kaos Pria Cotton 30s</h5>
             </a>
@@ -364,8 +366,8 @@
           </a>
         </div>
         <div class="col-2 ">
-          <div class="card" style="height:61vh">
-            <img src="img/Produk/produkPria/LILIUS WHITE [M] - BAJU KEMEJA PRIA COWOK SLIMFIT.jpg" class="card-img-top" style="height: 34vh;">
+          <div class="card" id="card-baju-pria-modern">
+            <img src="img/Produk/produkPria/LILIUS WHITE [M] - BAJU KEMEJA PRIA COWOK SLIMFIT.jpg" class="card-img-top">
             <a href="#" class="baju card-title">
               <h5 class="text-center py-4">Lilius White [M] Baju Kemeja Pria </h5>
             </a>
